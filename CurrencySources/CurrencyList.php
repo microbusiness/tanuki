@@ -50,7 +50,7 @@ class CurrencyList implements ICurrencyList
      */
     private function getUndefinedCurrency(string $code) : Currency
     {
-        new Currency('undefined',$code);
+        return new Currency('undefined',$code);
     }
 
 }

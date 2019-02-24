@@ -45,4 +45,9 @@ class Course
             return true;
         }
     }
+
+    public function format(string $type)
+    {
+        return print_r($this);
+    }
 }
